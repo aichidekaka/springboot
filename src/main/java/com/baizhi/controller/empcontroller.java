@@ -26,6 +26,7 @@ public class empcontroller {
         return "forward:/ShowAllView.jsp";
     }
 
+
     @RequestMapping("/Insert")
 
 
