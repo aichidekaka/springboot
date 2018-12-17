@@ -26,9 +26,7 @@ public class empcontroller {
         return "forward:/ShowAllView.jsp";
     }
 
-
     @RequestMapping("/Insert")
-
 
     public String Insert(Emp emp) {
         System.out.println(emp);
@@ -39,7 +37,8 @@ public class empcontroller {
     @RequestMapping("/queryAllCity")
     public City queryAllCity() {
         City city = cityMapper.selectByPrimaryKey(1L);
-
+        System.out.println("111111111 ");
+        System.out.println("i am zf hahahahahhahahqah");
         return city;
     }
 
