@@ -27,6 +27,8 @@ public class empcontroller {
     }
 
     @RequestMapping("/Insert")
+
+
     public String Insert(Emp emp) {
         System.out.println(emp);
         empMapper.insert(emp);
